@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+
+a {
+    font-size: 1em;
+    color: #212121;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    opacity: .95;
+}
+
+.page {
+    padding: 16px 30px;
+}
+
+.icon {
+    padding: 5px;
+}
+
+.expand {
+    width: 2em;
+    height: 2em;
+    margin: 0 17px 0 2px;
+}
+
+.expand:hover {
+    cursor: pointer;
+}
+
+.primary-color {
+    background: #5084f5;
+    color: #fff;
+}
+
+.secondary-color {
+    background: #F8F9FA !important;
+    color: #3D4043;
+}
+
+button {
+    padding: .55em .91em;
+    outline: none;
+    border: none;
+    border-radius: .15em;
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 0 1px 1px rgba(0,0, 0, .15)
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left, .right {
+    display: flex;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo {
+    width: 272px;
+    padding: 152px 0 0 0;
+}
+
+.searchBar {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid #DFE1E5;
+    padding: .54em .9em;
+    margin: 28.2px 0;
+    border-radius: 1000em;
+}
+
+.searchBar:hover {
+    box-shadow: 0 1px 5px rgba(0,0, 0, .27);
+    border: 1px solid #fff;
+}
+
+.search {
+    width: 24.7px;
+    margin-right: 10px;
+}
+
+.microphone {
+    width: 24.7px;
+    margin-right: 4px;
+}
+
+.microphone:hover {
+    cursor: pointer;
+}
+
+input {
+    outline: none;
+    border: none;
+    width: 37em;
+    height: 100%;
+}
+
+.google-search {
+    padding: .65em 1.1em;
+    margin: 0 4px;
+    font-size: 1.09em !important;
+    border-radius: .25em !important;
+    border: 1px solid #F8F9FA;
+}
+
+.google-search:hover {
+    border: 1px solid #DFE1E5;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left:0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: .95em 1.2em;
+    background:  #F2F2F2;
+    border-top: 1px solid #DADCE0;
+}
+
+footer a{
+    color: #717579;
+    margin: 0 14px;
+    font-size: 1.06em;
+}
